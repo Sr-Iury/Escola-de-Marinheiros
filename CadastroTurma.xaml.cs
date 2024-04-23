@@ -66,7 +66,7 @@ namespace Aula_02
 
         private void Button_Click_6(object sender, RoutedEventArgs e)
         {
-            var VisualizarTurma = new VisualizarTurma();
+            var VisualizarTurma = new VisualizarTurma();//teste de github
             this.Close();
             VisualizarTurma.Show();
         }
