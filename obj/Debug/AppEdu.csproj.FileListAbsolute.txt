@@ -44,3 +44,14 @@ C:\Users\ducil\OneDrive\Documentos\PDS\Aula-02\obj\Debug\CadastroUser.g.cs
 C:\Users\ducil\OneDrive\Documentos\PDS\Aula-02\obj\Debug\PaginaLogin.g.cs
 C:\Users\ducil\OneDrive\Documentos\PDS\Aula-02\obj\Debug\CadastroUser.baml
 C:\Users\ducil\OneDrive\Documentos\PDS\Aula-02\obj\Debug\PaginaLogin.baml
+C:\Users\ducil\OneDrive\Documentos\PDS\Aula-02\bin\Debug\HandyControl.dll
+C:\Users\ducil\OneDrive\Documentos\PDS\Aula-02\bin\Debug\LiveCharts.dll
+C:\Users\ducil\OneDrive\Documentos\PDS\Aula-02\bin\Debug\LiveCharts.Wpf.dll
+C:\Users\ducil\OneDrive\Documentos\PDS\Aula-02\bin\Debug\HandyControl.pdb
+C:\Users\ducil\OneDrive\Documentos\PDS\Aula-02\bin\Debug\HandyControl.xml
+C:\Users\ducil\OneDrive\Documentos\PDS\Aula-02\bin\Debug\LiveCharts.pdb
+C:\Users\ducil\OneDrive\Documentos\PDS\Aula-02\bin\Debug\LiveCharts.xml
+C:\Users\ducil\OneDrive\Documentos\PDS\Aula-02\bin\Debug\LiveCharts.Wpf.pdb
+C:\Users\ducil\OneDrive\Documentos\PDS\Aula-02\bin\Debug\LiveCharts.Wpf.xml
+C:\Users\ducil\OneDrive\Documentos\PDS\Aula-02\obj\Debug\App.baml
+C:\Users\ducil\OneDrive\Documentos\PDS\Aula-02\obj\Debug\AppEdu.csproj.CopyComplete

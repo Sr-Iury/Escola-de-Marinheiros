@@ -4,14 +4,15 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Aula_02"
+        xmlns:lvc="clr-namespace:LiveCharts.Wpf;assembly=LiveCharts.Wpf"
+        xmlns:hc="https://handyorg.github.io/handycontrol" 
         mc:Ignorable="d"
+        Title="Tec-Jipa" Height="489" Width="740"
         WindowStyle="none"
         ResizeMode="NoResize"
         WindowStartupLocation="CenterScreen"
-        WindowState="Maximized"
-    Title="Tec-Jipa" Height="489" Width="740">
+        WindowState="Maximized">
     <Grid Background="#bfddf3">
-
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="2.5*"/>
@@ -107,24 +108,82 @@
                 </Button.Resources>
             </Button>
         </StackPanel>
-        <Border Grid.Column="1" Background="#fff"></Border>
-        <WrapPanel Grid.Column="1">
-            <WrapPanel Height="150" Width="225" Background="#326cf1" Margin="9">
-                <TextBlock>
-                    
-                </TextBlock>
-            </WrapPanel>
+        <Border Grid.Column="1" Background="#9eb6ff"></Border>
+        <WrapPanel Grid.Column="1" Margin="20,20, 0, 0">
+            <Grid Grid.Column="1" Background="#FF707070" Height="247" Width="210" Margin="0,0, 25, 0">
+                <hc:Card Content="" HorizontalAlignment="Left" Height="247" VerticalAlignment="Top" Width="210" Background="LemonChiffon" BorderBrush="{x:Null}"/>
+                <TextBlock HorizontalAlignment="Left" Height="18" Margin="10,9,0,0" TextWrapping="Wrap" Text="Diretores" VerticalAlignment="Top" Width="73" Foreground="White"/>
+                <TextBlock HorizontalAlignment="Left" Height="48" Margin="10,46,0,0" TextWrapping="Wrap" Text="4" VerticalAlignment="Top" Width="163" Foreground="White" FontSize="36"/>
+                <TextBlock HorizontalAlignment="Left" Height="48" Margin="10,94,0,0" TextWrapping="Wrap" Text="Escola naval de marinheiros, com fundamentação EAM." VerticalAlignment="Top" Width="163" Foreground="White" FontSize="11"/>
+                <Image HorizontalAlignment="Left" Height="35" Margin="11,142,0,0" VerticalAlignment="Top" Width="35" Source="Recursos/Imagens/gamer (1).png"/>
+                <Image HorizontalAlignment="Left" Height="35" Margin="49,142,0,0" VerticalAlignment="Top" Width="35" Source="Recursos/Imagens/gamer (2).png"/>
+                <Image HorizontalAlignment="Left" Height="35" Margin="87,142,0,0" VerticalAlignment="Top" Width="35" Source="Recursos/Imagens/gamer (3).png"/>
+                <Path Data="M247.5,262.66667 L450.01756,262.66667" Fill="#FFD9D9D9" HorizontalAlignment="Left" Height="10" Margin="3,193,0,0" Stroke="#FF373737" Stretch="Fill" VerticalAlignment="Top" Width="204"/>
+                <Path Data="M323.5,247 L323.5,286" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="40" Margin="105,194,0,0" Stroke="#FF373737" Stretch="Fill" VerticalAlignment="Top" Width="1"/>
+                <TextBlock HorizontalAlignment="Left" Height="28" Margin="10,194,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="90" Foreground="White" FontSize="22" Text="3" TextAlignment="Center"/>
+                <TextBlock HorizontalAlignment="Left" Height="23" Margin="11,223,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="90" Foreground="#FF08AA41" FontSize="11" Text="POSITIVO" TextAlignment="Center"/>
+                <TextBlock HorizontalAlignment="Left" Height="28" Margin="113,195,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="90" Foreground="White" FontSize="22" Text="1" TextAlignment="Center"/>
+                <TextBlock HorizontalAlignment="Left" Height="23" Margin="114,224,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="90" Foreground="#FFAA0808" FontSize="11" Text="NEGATIVO" TextAlignment="Center"/>
+                <Button Content="Button" Height="25" Margin="-110,1,-285,212" Width="25" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}"/>
 
-            <WrapPanel Height="150" Width="225" Background="#fbfd36"  Margin="9">
+            </Grid>
 
-            </WrapPanel>
+            <Grid Grid.Column="1" Background="#FF707070" Height="247" Width="210"  Margin="0,0, 25, 0">
+                <hc:Card Content="" HorizontalAlignment="Left" Height="247" VerticalAlignment="Top" Width="210" Background="LemonChiffon" BorderBrush="{x:Null}"/>
+                <TextBlock HorizontalAlignment="Left" Height="18" Margin="10,9,0,0" TextWrapping="Wrap" Text="Marinheiros Ingressantes" VerticalAlignment="Top" Width="73" Foreground="White"/>
+                <TextBlock HorizontalAlignment="Left" Height="48" Margin="10,46,0,0" TextWrapping="Wrap" Text="1.300" VerticalAlignment="Top" Width="163" Foreground="White" FontSize="36"/>
+                <TextBlock HorizontalAlignment="Left" Height="48" Margin="10,94,0,0" TextWrapping="Wrap" Text="Escola naval de marinheiros, com fundamentação EAM." VerticalAlignment="Top" Width="163" Foreground="White" FontSize="11"/>
+                <Image HorizontalAlignment="Left" Height="35" Margin="11,142,0,0" VerticalAlignment="Top" Width="35" Source="Recursos/Imagens/gamer (1).png"/>
+                <Image HorizontalAlignment="Left" Height="35" Margin="49,142,0,0" VerticalAlignment="Top" Width="35" Source="Recursos/Imagens/gamer (2).png"/>
+                <Image HorizontalAlignment="Left" Height="35" Margin="87,142,0,0" VerticalAlignment="Top" Width="35" Source="Recursos/Imagens/gamer (3).png"/>
+                <Path Data="M247.5,262.66667 L450.01756,262.66667" Fill="#FFD9D9D9" HorizontalAlignment="Left" Height="10" Margin="3,193,0,0" Stroke="#FF373737" Stretch="Fill" VerticalAlignment="Top" Width="204"/>
+                <Path Data="M323.5,247 L323.5,286" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="40" Margin="105,194,0,0" Stroke="#FF373737" Stretch="Fill" VerticalAlignment="Top" Width="1"/>
+                <TextBlock HorizontalAlignment="Left" Height="28" Margin="10,194,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="90" Foreground="White" FontSize="22" Text="960" TextAlignment="Center"/>
+                <TextBlock HorizontalAlignment="Left" Height="23" Margin="11,223,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="90" Foreground="#FF08AA41" FontSize="11" Text="POSITIVO" TextAlignment="Center"/>
+                <TextBlock HorizontalAlignment="Left" Height="28" Margin="113,195,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="90" Foreground="White" FontSize="22" Text="340" TextAlignment="Center"/>
+                <TextBlock HorizontalAlignment="Left" Height="23" Margin="114,224,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="90" Foreground="#FFAA0808" FontSize="11" Text="NEGATIVO" TextAlignment="Center"/>
+                <Button Content="Button" Height="25" Margin="-110,1,-285,212" Width="25" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}"/>
 
-            <WrapPanel Height="150" Width="225" Background="#59ce03"  Margin="9">
+            </Grid>
 
-            </WrapPanel>
-            <WrapPanel Height="150" Width="225" Background="Orange"  Margin="9">
+            <Grid Grid.Column="1" Background="#FF707070" Height="247" Width="210"  Margin="0,0, 25, 0">
+                <hc:Card Content="" HorizontalAlignment="Left" Height="247" VerticalAlignment="Top" Width="210" Background="LemonChiffon" BorderBrush="{x:Null}"/>
+                <TextBlock HorizontalAlignment="Left" Height="18" Margin="10,9,0,0" TextWrapping="Wrap" Text="Servidores" VerticalAlignment="Top" Width="73" Foreground="White"/>
+                <TextBlock HorizontalAlignment="Left" Height="48" Margin="10,46,0,0" TextWrapping="Wrap" Text="543" VerticalAlignment="Top" Width="163" Foreground="White" FontSize="36"/>
+                <TextBlock HorizontalAlignment="Left" Height="48" Margin="10,94,0,0" TextWrapping="Wrap" Text="Escola naval de marinheiros, com fundamentação EAM." VerticalAlignment="Top" Width="163" Foreground="White" FontSize="11"/>
+                <Image HorizontalAlignment="Left" Height="35" Margin="11,142,0,0" VerticalAlignment="Top" Width="35" Source="Recursos/Imagens/gamer (1).png"/>
+                <Image HorizontalAlignment="Left" Height="35" Margin="49,142,0,0" VerticalAlignment="Top" Width="35" Source="Recursos/Imagens/gamer (2).png"/>
+                <Image HorizontalAlignment="Left" Height="35" Margin="87,142,0,0" VerticalAlignment="Top" Width="35" Source="Recursos/Imagens/gamer (3).png"/>
+                <Path Data="M247.5,262.66667 L450.01756,262.66667" Fill="#FFD9D9D9" HorizontalAlignment="Left" Height="10" Margin="3,193,0,0" Stroke="#FF373737" Stretch="Fill" VerticalAlignment="Top" Width="204"/>
+                <Path Data="M323.5,247 L323.5,286" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="40" Margin="105,194,0,0" Stroke="#FF373737" Stretch="Fill" VerticalAlignment="Top" Width="1"/>
+                <TextBlock HorizontalAlignment="Left" Height="28" Margin="10,194,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="90" Foreground="White" FontSize="22" Text="454" TextAlignment="Center"/>
+                <TextBlock HorizontalAlignment="Left" Height="23" Margin="11,223,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="90" Foreground="#FF08AA41" FontSize="11" Text="POSITIVO" TextAlignment="Center"/>
+                <TextBlock HorizontalAlignment="Left" Height="28" Margin="113,195,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="90" Foreground="White" FontSize="22" Text="89" TextAlignment="Center"/>
+                <TextBlock HorizontalAlignment="Left" Height="23" Margin="114,224,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="90" Foreground="#FFAA0808" FontSize="11" Text="NEGATIVO" TextAlignment="Center"/>
+                <Button Content="Button" Height="25" Margin="-110,1,-285,212" Width="25" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}"/>
 
-            </WrapPanel>
+            </Grid>
+
+            <Grid Grid.Column="1" Background="#FF707070" Height="247" Width="210">
+                <hc:Card Content="" HorizontalAlignment="Left" Height="247" VerticalAlignment="Top" Width="210" Background="LemonChiffon" BorderBrush="{x:Null}"/>
+                <TextBlock HorizontalAlignment="Left" Height="18" Margin="10,9,0,0" TextWrapping="Wrap" Text="Professores" VerticalAlignment="Top" Width="73" Foreground="White"/>
+                <TextBlock HorizontalAlignment="Left" Height="48" Margin="10,46,0,0" TextWrapping="Wrap" Text="987" VerticalAlignment="Top" Width="163" Foreground="White" FontSize="36"/>
+                <TextBlock HorizontalAlignment="Left" Height="48" Margin="10,94,0,0" TextWrapping="Wrap" Text="Escola naval de marinheiros, com fundamentação EAM." VerticalAlignment="Top" Width="163" Foreground="White" FontSize="11"/>
+                <Image HorizontalAlignment="Left" Height="35" Margin="11,142,0,0" VerticalAlignment="Top" Width="35" Source="Recursos/Imagens/gamer (1).png"/>
+                <Image HorizontalAlignment="Left" Height="35" Margin="49,142,0,0" VerticalAlignment="Top" Width="35" Source="Recursos/Imagens/gamer (2).png"/>
+                <Image HorizontalAlignment="Left" Height="35" Margin="87,142,0,0" VerticalAlignment="Top" Width="35" Source="Recursos/Imagens/gamer (3).png"/>
+                <Path Data="M247.5,262.66667 L450.01756,262.66667" Fill="#FFD9D9D9" HorizontalAlignment="Left" Height="10" Margin="3,193,0,0" Stroke="#FF373737" Stretch="Fill" VerticalAlignment="Top" Width="204"/>
+                <Path Data="M323.5,247 L323.5,286" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="40" Margin="105,194,0,0" Stroke="#FF373737" Stretch="Fill" VerticalAlignment="Top" Width="1"/>
+                <TextBlock HorizontalAlignment="Left" Height="28" Margin="10,194,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="90" Foreground="White" FontSize="22" Text="862" TextAlignment="Center"/>
+                <TextBlock HorizontalAlignment="Left" Height="23" Margin="11,223,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="90" Foreground="#FF08AA41" FontSize="11" Text="POSITIVO" TextAlignment="Center"/>
+                <TextBlock HorizontalAlignment="Left" Height="28" Margin="113,195,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="90" Foreground="White" FontSize="22" Text="125" TextAlignment="Center"/>
+                <TextBlock HorizontalAlignment="Left" Height="23" Margin="114,224,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="90" Foreground="#FFAA0808" FontSize="11" Text="NEGATIVO" TextAlignment="Center"/>
+                <Button Content="Button" Height="25" Margin="-110,1,-285,212" Width="25" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}"/>
+            </Grid>
         </WrapPanel>
+        <Border Height="300" Width="600"  Background="#FF707070" Grid.ColumnSpan="2" Margin="96,244,44,-55">
+            <Image VerticalAlignment="Center" Width="500" Source="Recursos/Imagens/imagem2.png" Grid.ColumnSpan="2" Margin="50,0,50,0"/>
+        </Border>
+        <Image VerticalAlignment="Top" Width="300" Source="Recursos/Imagens/logo-marinha.png" Margin="1000,330,0,0" Grid.ColumnSpan="2"/>
     </Grid>
 </Window>

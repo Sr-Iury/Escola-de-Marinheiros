@@ -27,109 +27,53 @@ namespace Aula_02
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
             var CadastroTurma = new CadastroTurma();
-            if (CadastroTurma.ShowDialog() == true)
-            {
-                // Se o login for bem-sucedido, mostra a janela principal
-                this.Show();
-            }
-            else
-            {
-                // Se o login não for bem-sucedido, fecha a aplicação
-                this.Close();
-            }
+            this.Close();
+            CadastroTurma.ShowDialog();
         }
 
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
             var CadastroAluno = new CadastroAluno();
-            if (CadastroAluno.ShowDialog() == true)
-            {
-                // Se o login for bem-sucedido, mostra a janela principal
-                this.Show();
-            }
-            else
-            {
-                // Se o login não for bem-sucedido, fecha a aplicação
-                this.Close();
-            }
+            this.Close();
+            CadastroAluno.ShowDialog();
         }
 
         private void Button_Click_3(object sender, RoutedEventArgs e)
         {
             var CadastroCurso = new CadastroCurso();
-            if (CadastroCurso.ShowDialog() == true)
-            {
-                // Se o login for bem-sucedido, mostra a janela principal
-                this.Show();
-            }
-            else
-            {
-                // Se o login não for bem-sucedido, fecha a aplicação
-                this.Close();
-            }
+            this.Close();
+            CadastroCurso.Show();
         }
 
         private void Button_Click_4(object sender, RoutedEventArgs e)
         {
             var VisualizarAluno = new VisualizarAluno();
-            if (VisualizarAluno.ShowDialog() == true)
-            {
-                // Se o login for bem-sucedido, mostra a janela principal
-                this.Show();
-            }
-            else
-            {
-                // Se o login não for bem-sucedido, fecha a aplicação
-                this.Close();
-            }
+            this.Close();
+            VisualizarAluno.Show();
         }
 
         private void Button_Click_5(object sender, RoutedEventArgs e)
         {
             var VisualizarCurso = new VisualizarCurso();
-            if (VisualizarCurso.ShowDialog() == true)
-            {
-                // Se o login for bem-sucedido, mostra a janela principal
-                this.Show();
-            }
-            else
-            {
-                // Se o login não for bem-sucedido, fecha a aplicação
-                this.Close();
-            }
+            this.Close();
+            VisualizarCurso.Show();
         }
 
         private void Button_Click_6(object sender, RoutedEventArgs e)
         {
             var VisualizarTurma = new VisualizarTurma();
-            if (VisualizarTurma.ShowDialog() == true)
-            {
-                // Se o login for bem-sucedido, mostra a janela principal
-                this.Show();
-            }
-            else
-            {
-                // Se o login não for bem-sucedido, fecha a aplicação
-                this.Close();
-            }
+            this.Close();
+            VisualizarTurma.Show();
         }
 
         private void Button_Click_7(object sender, RoutedEventArgs e)
         {
             var VisualizarEscola = new VisualizarEscola();
-            if (VisualizarEscola.ShowDialog() == true)
-            {
-                // Se o login for bem-sucedido, mostra a janela principal
-                this.Show();
-            }
-            else
-            {
-                // Se o login não for bem-sucedido, fecha a aplicação
-                this.Close();
-            }
+            this.Close();
+            VisualizarEscola.ShowDialog();
         }
 
-        private void Button_Click()
+        private void Button_Click(object sender, RoutedEventArgs e)
         {
 
         }

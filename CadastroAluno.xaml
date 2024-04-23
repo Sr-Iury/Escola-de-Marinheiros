@@ -252,7 +252,7 @@
                         Margin="2,20,0,0"
                     Padding="6px"
                     FontSize="24"
-                    Grid.Column="0" HorizontalAlignment="Left" Width="200">
+                    Grid.Column="0" HorizontalAlignment="Left" Width="200" Click="Button_Click">
                             <WrapPanel>
                                 <Image Source="Recursos/Imagens/conecte-se.png" Width="40" Margin="0 0 20 0"/>
                                 <TextBlock Text="Cadastrar"></TextBlock>

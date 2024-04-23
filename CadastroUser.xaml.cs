@@ -27,30 +27,12 @@ namespace Aula_02
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
             var MainWindow = new MainWindow();
-            if (MainWindow.ShowDialog() == true)
-            {
-                // Se o login for bem-sucedido, mostra a janela principal
-                this.Show();
-            }
-            else
-            {
-                // Se o login não for bem-sucedido, fecha a aplicação
-                this.Close();
-            }
+            this.Close();
+            MainWindow.ShowDialog();
         }
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            var Dashboard = new Dashboard();
-            if (Dashboard.ShowDialog() == true)
-            {
-                // Se o login for bem-sucedido, mostra a janela principal
-                this.Show();
-            }
-            else
-            {
-                // Se o login não for bem-sucedido, fecha a aplicação
-                this.Close();
-            }
+            this.Close();
         }
     }
 }
